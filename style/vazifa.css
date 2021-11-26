@@ -42,3 +42,160 @@ header{
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
+.menu a:hover{
+    border-radius: 30px;
+    background-image: linear-gradient(  #282e34,#3f4a53, #445058 );
+    border: 1px solid black;
+}
+.main-bar{
+    width: 100%;
+    position: relative;
+}
+.img-in-main-bar{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    display: inline-block;
+    width: 32%;
+}
+.text-in-main-bar{
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 45%;
+    height: 60%;
+    padding: 10px 30px;
+}
+.text-in-main-bar h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+}
+.text-in-main-bar h4{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: initial;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 1.5;
+    padding: 0px 50px;
+}
+.text-in-main-bar p{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    font-weight: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 1.5;
+    padding: 0px 50px;
+}
+.links{
+    padding: 50px;
+    margin-left: 10px;
+}
+#colorize{
+    padding: 10px 30px;
+    margin-right: 20px;
+    margin-left: 20px;  
+    color: white;
+    text-decoration: none;
+    background: blue;
+    border-radius: 20px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+#colorize:hover{
+    background: cyan;
+}
+#uncolorize{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+
+}
+.links img{
+    margin-left: 20px;
+    width: 15px;
+    height: 20px;
+}
+.links font{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+.logo-bar{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #82949d ;
+    border-bottom: 1px solid #82949d ;
+}
+.logo-bar li{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 100px;
+}
+.central{
+    width: 100%;
+    height: 400px;
+    background: #f3f3f3;
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+}
+div.first{
+    width: 25%;
+    padding-top: 30px;
+    min-height: 100%;
+    display: inline-block;
+    position: relative;
+    left: 12%;
+    top: 0px;
+    margin-left: 10px;
+}
+div.first div{
+    position: relative;
+    border: 4px solid #8395a2;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 100%;
+}
+div.first div img{
+    position: absolute;
+    left: 32%;
+    top: 25%;
+}
+p{
+    margin-top: 10px;
+    text-align: center;
+    color: #57656f;
+    padding: 0px 15px;
+    line-height: 1.5;
+}
+h3{
+    margin-top: 30px;
+    font: 23px 'Times New Roman';
+    text-align: center;
+    color: #57656f;
+}
+.first a{
+    text-decoration: none;
+    position: absolute;
+    left: 30%;
+    bottom: 35px;
+    border: 2px solid #4285bb;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(#abd0e9, #4f95ce, #609bd0);
+    color: white;
+}
+.first a:hover{
+    background-image: linear-gradient(to right, cyan,cyan, blue);
+}
+.main-footer{
+    width: 100%;
+    height: 440px;
+    background: #f3f3f3;
+}
